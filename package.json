@@ -1,0 +1,16 @@
+{
+  "name": "hookbot",
+  "version": "1.0.0",
+  "description": "telegram bot HookBot",
+  "main": "index.js",
+  "scripts": {
+    "test": " node index && echo exited "
+  },
+  "author": "Nazar Mazur",
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "sqlite-sync": "^0.3.8"
+  }
+}
