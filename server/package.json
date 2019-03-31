@@ -1,0 +1,18 @@
+{
+  "name": "hookserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "md5": "^2.2.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "sqlite-sync": "^0.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nazar Mazur",
+  "license": "ISC"
+}

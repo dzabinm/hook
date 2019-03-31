@@ -4,7 +4,7 @@ const
  sql = require('sqlite-sync'),
  bot = new TelegramBot(config.token, {polling: true});
  sql.connect('data/users.db');
- sql.run('CREATE TABLE IF NOT EXISTS ueser(id  INTEGER PRIMARY KEY AUTOINCREMENT, token TEXT NOT NULL , regDate INTGER NOT NULL );',
+ sql.run('CREATE TABLE IF NOT EXISTS ueser(id  INTEGER PRIMARY KEY AUTOINCREMENT, userInfo JSON NOT NULL ,  token TEXT NOT NULL , regDate INTGER NOT NULL );',
        function(res) {
        if (res.error)
        throw res.error;
